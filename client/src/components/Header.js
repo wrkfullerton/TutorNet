@@ -21,7 +21,7 @@ function Header() {
             <SearchIcon />
         </div>
         <div className="header__right">
-            <Link to="/tutor/register">
+            <Link to="/tutor/register" className="header__link">
             <p>Become a Tutor</p>
             </Link>
             <LanguageIcon/>
